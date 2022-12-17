@@ -26,3 +26,21 @@ Finally we reproject the points of one image onto the other
 ![Alt text](3D-reconstruction-from-2D-images/Results/Reprojection.png)
 
 3) Lastly we recreate the 3D model from multi view sfm
+
+Input views - 
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/Input-views.png)
+
+Disparity -
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/Disparity.png)
+
+Disparity and depth after post processing -
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/Postproc-Disparity-and-depth.png)
+
+L-R Consistency check mask -
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/L-R-Consistency-Check-Mask.png)
+
+Reconstructed 3d model from 2 views using ZNCC Kernel -
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/Reconstructed-3d-model-ZNCC.png)
+
+Entire Reconstructed 3d model
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/Reconstructed-3d-model-ZNCC.png)
