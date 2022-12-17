@@ -13,6 +13,6 @@ The resulting epipolar lines are as follows
  ![Alt text](3D-reconstruction-from-2D-images/Results/Epipolar lines.png)
 
 Finally we reproject the points of one image onto the other
-![Alt text](3D reconstruction from 2D images/Results/Reprojection.png)
+![Alt text](3D-reconstruction-from-2D-images/Results/Reprojection.png)
 
 Lastly we recreate the 3D model from multi view sfm
