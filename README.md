@@ -3,11 +3,16 @@ The entire pipeline consists of different parts -
 2) Reconstruction of 3d scene from 2 views using 2 view sfm
 
 We first identify important features using SIFT -
-![image](https://user-images.githubusercontent.com/46398827/208264027-4701e79e-c734-42f9-bd95-485382988e0b.png)
+![image](3D reconstruction from 2D images/Results/SIFT points.png)
 
 We then match key points using both least square and RANSAC to prove effectiveness of ransac -
-![image](https://user-images.githubusercontent.com/46398827/208264125-c77cb446-42cf-4060-bd80-c5e7556b631d.png)
-![image](https://user-images.githubusercontent.com/46398827/208264129-6685c5ca-1115-4d18-a404-3241050edfbe.png)
+![image](3D reconstruction from 2D images/Results/Key pts using lst sq.png)
+![image](3D reconstruction from 2D images/Results/Key pts using RANSAC.png)
 
+The resulting epipolar lines are as follows 
+ ![image](3D reconstruction from 2D images/Results/Epipolar lines.png)
+
+Finally we reproject the points of one image onto the other
+![image](3D reconstruction from 2D images/Results/Reprojection.png)
 
 Lastly we recreate the 3D model from multi view sfm
