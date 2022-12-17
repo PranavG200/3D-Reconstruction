@@ -1,5 +1,6 @@
 The entire pipeline consists of different parts -
 1) Using optical flow to get point correspondences and estimate depths.
+
 Optical flow is computed first. The smallest singular value of spatiotemporal derivative matrix is calculated and only those pixels which are above a threshold value are considered. the flow vectors are shown below 
 ![Alt text](Optical-flow-and-depth-estimation/Results/flow_10.png)
 
@@ -24,4 +25,5 @@ The resulting epipolar lines are as follows
 Finally we reproject the points of one image onto the other
 ![Alt text](3D-reconstruction-from-2D-images/Results/Reprojection.png)
 
-Lastly we recreate the 3D model from multi view sfm
+3) Lastly we recreate the 3D model from multi view sfm
+
