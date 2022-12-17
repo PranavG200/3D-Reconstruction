@@ -10,7 +10,7 @@ We then match key points using both least square and RANSAC to prove effectivene
 ![Alt text](3D reconstruction from 2D images/Results/Key pts using RANSAC.png)
 
 The resulting epipolar lines are as follows 
- ![Alt text](3D-reconstruction-from-2D images/Results/Epipolar lines.png)
+ ![Alt text](3D-reconstruction-from-2D-images/Results/Epipolar lines.png)
 
 Finally we reproject the points of one image onto the other
 ![Alt text](3D reconstruction from 2D images/Results/Reprojection.png)
