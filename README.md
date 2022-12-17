@@ -43,4 +43,4 @@ Reconstructed 3d model from 2 views using ZNCC Kernel -
 ![Alt text](Reconstruction-from-Multi-view-stereo/Results/Reconstructed-3d-model-ZNCC.png)
 
 Entire Reconstructed 3d model
-![Alt text](Reconstruction-from-Multi-view-stereo/Results/Reconstructed-3d-model-ZNCC.png)
+![Alt text](Reconstruction-from-Multi-view-stereo/Results/Reconstructed-3d-model.png)
