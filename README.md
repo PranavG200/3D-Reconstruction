@@ -1,5 +1,14 @@
 The entire pipeline consists of different parts -
 1) Using optical flow to get point correspondences and estimate depths.
+Optical flow is computed first. The smallest singular value of spatiotemporal derivative matrix is calculated and only those pixels which are above a threshold value are considered. the flow vectors are shown below 
+![Alt text](Optical-flow-and-depth-estimation/Results/flow_10.png)
+
+Epipoles after RANSAC and satisfying planar condition equation by a threshold
+![Alt text](Optical-flow-and-depth-estimation/Results/epipole_10.png)
+
+Depths are then calculated by assuming pure translational motion
+![Alt text](Optical-flow-and-depth-estimation/Results/depth_10.png)
+
 2) Reconstruction of 3d scene from 2 views using 2 view sfm
 
 We first identify important features using SIFT -
