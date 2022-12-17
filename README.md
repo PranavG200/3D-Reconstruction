@@ -26,4 +26,3 @@ Finally we reproject the points of one image onto the other
 ![Alt text](3D-reconstruction-from-2D-images/Results/Reprojection.png)
 
 3) Lastly we recreate the 3D model from multi view sfm
-
